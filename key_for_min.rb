@@ -10,7 +10,7 @@ def key_for_min_value(hash)
       low_value = value 
       low_key = key 
       
-    elseif value < low_value
+    elsif value < low_value
       low_value = value 
       low_key = key 
       
